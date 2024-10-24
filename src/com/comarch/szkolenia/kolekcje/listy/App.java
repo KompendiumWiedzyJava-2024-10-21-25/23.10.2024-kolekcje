@@ -2,10 +2,11 @@ package com.comarch.szkolenia.kolekcje.listy;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class App {
     public static void main(String[] args) {
-        LinkedList<String> lista = new LinkedList<>();
+        List<String> lista = new LinkedList<>();
 
         System.out.println(lista.size());
 
@@ -33,5 +34,31 @@ public class App {
 
 
         System.out.println(lista.contains("Karol"));
+
+        cos1(lista);
+        cos2(lista);
+        cos3(lista);
+
+        Pair<String, Double> para = new Pair<>();
+        Pair<Integer, Boolean> para2 = new Pair<>();
+
+    }
+
+    public static void cos1(List<String> lista) {
+        //??
+        //??
+        //??
+    }
+
+    public static void cos2(List<String> lista) {
+        //??
+        //??
+        //??
+    }
+
+    public static void cos3(List<String> lista) {
+        //??
+        //??
+        //??
     }
 }

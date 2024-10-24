@@ -1,22 +1,22 @@
 package com.comarch.szkolenia.kolekcje.listy;
 
-public class Pair<T> {
-    T x;
-    T y;
+public class Pair<S, W> {
+    S x;
+    W y;
 
-    public T getX() {
+    public S getX() {
         return x;
     }
 
-    public void setX(T x) {
+    public void setX(S x) {
         this.x = x;
     }
 
-    public T getY() {
+    public W getY() {
         return y;
     }
 
-    public void setY(T y) {
+    public void setY(W y) {
         this.y = y;
     }
 }
